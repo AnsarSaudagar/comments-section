@@ -18,7 +18,7 @@ export class AppComponent {
   constructor(private dataService : DataService){}
 
   ngOnInit(){
-    this.dataService.getAllComments().subscribe(data=>{
+    this.dataService.getCurrentUser().subscribe(data=>{
       console.log(data);
       
     })

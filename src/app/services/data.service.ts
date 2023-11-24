@@ -11,4 +11,8 @@ export class DataService {
   getAllComments(){
     return this.http.get('http://localhost:3000/comments');
   }
+
+  getCurrentUser(){
+    return this.http.get('http://localhost:3000/currentUser');
+  }
 }
