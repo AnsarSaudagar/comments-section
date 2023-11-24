@@ -23,7 +23,7 @@ The designs were created to the following widths:
 - Light gray: hsl(223, 19%, 93%)
 - Very light gray: hsl(228, 33%, 97%)
 - White: hsl(0, 0%, 100%)
-
+#f5f6fa
 ## Typography
 
 ### Body Copy
