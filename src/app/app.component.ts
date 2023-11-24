@@ -19,7 +19,6 @@ export class AppComponent {
 
   ngOnInit(){
     this.dataService.getCurrentUser().subscribe(data=>{
-      console.log(data);
       
     })
   }
